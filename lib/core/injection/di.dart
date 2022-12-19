@@ -10,6 +10,5 @@ final sl = GetIt.instance;
 void configureDependencies() {
   String env = Environment.dev;
   if (kReleaseMode) env = Environment.prod;
-
   $initGetIt(sl, environment: env);
 }

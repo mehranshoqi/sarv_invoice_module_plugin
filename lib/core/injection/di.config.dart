@@ -149,10 +149,8 @@ _i1.GetIt $initGetIt(
     environment,
     environmentFilter,
   );
-  final externalModule = _$ExternalModule();
-  gh.lazySingleton<_i3.Dio>(() => externalModule.dio());
-  gh.lazySingleton<_i4.FlutterSecureStorage>(
-      () => externalModule.flutterSecureStorage());
+  // final externalModule = _$ExternalModule();
+
   gh.lazySingleton<_i5.InitDatasource>(
       () => _i6.InitDatasourceIMPL(get<_i3.Dio>()));
   gh.lazySingleton<_i7.InitRepository>(
@@ -307,4 +305,4 @@ _i1.GetIt $initGetIt(
   return get;
 }
 
-class _$ExternalModule extends _i94.ExternalModule {}
+// class _$ExternalModule extends _i94.ExternalModule {}
