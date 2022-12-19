@@ -1,11 +1,11 @@
 library sarv_invoice_module_plugin;
 
+import 'package:sarv_invoice_module_plugin/core/ui/base_widget.dart';
+
 import 'core/injection/di.dart' as di;
 
 import 'package:flutter/material.dart';
 import 'package:sarv_invoice_module_plugin/features/invoice/presentation/pages/sell/new_sell_invoice_page.dart';
-
-
 
 class NewSellInvoiceModule extends StatefulWidget {
   const NewSellInvoiceModule({
@@ -26,8 +26,8 @@ class _NewSellInvoiceModuleState extends State<NewSellInvoiceModule> {
   }
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-        body: Column(
+  Widget build(BuildContext context) => BaseWidget(
+        Column(
           children: [
             Text('Debug version - ' + widget.isPOS.toString()),
             Expanded(child: NewSellInvoicePage()),
