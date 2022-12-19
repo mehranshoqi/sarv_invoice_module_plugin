@@ -9,7 +9,7 @@ class NewSellInvoiceModule extends StatelessWidget {
     required this.isPOS,
   }) : super(key: key);
   final bool isPOS;
- 
+  
   @override
   Widget build(BuildContext context) => NewSellInvoicePage();
 }
