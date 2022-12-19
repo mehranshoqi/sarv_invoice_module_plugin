@@ -22,7 +22,7 @@ class _NewSellInvoiceModuleState extends State<NewSellInvoiceModule> {
   @override
   void initState() {
     super.initState();
-    // di.configureDependencies();
+    di.configureDependencies();
   }
 
   @override
