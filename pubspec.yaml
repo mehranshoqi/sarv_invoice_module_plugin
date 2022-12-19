@@ -11,11 +11,43 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sizer:
+  fluro: ^2.0.3
+  iconsax: ^0.0.8
+  modal_bottom_sheet:
+  # desktop_window: ^0.4.0
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  freezed_annotation: ^1.1.0
+  json_annotation: ^4.4.0
+  dio: ^4.0.6
+  injectable: ^1.5.3
+  get_it: ^7.2.0
+  flutter_bloc: ^8.0.1
+  horizontal_data_table: ^4.1.1+1
+  # image_picker:
+  # editable: ^2.0.0
+  cupertino_icons: ^1.0.2
+  oktoast: ^3.2.0
+  pretty_dio_logger: ^1.1.1
+  flutter_secure_storage: ^5.0.2
+  # file_picker: ^5.0.0
+  expandable: ^5.0.1
+  loading_animation_widget: ^1.2.0+2
+  # dropdown_search: ^5.0.2
+  shamsi_date: ^1.0.1
+  android_pos:
+    git:
+      url: https://github.com/mehranshoqi/pos-p1000.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^1.0.0
+  json_serializable: ^6.1.5
+  freezed: ^1.1.1
+  build_runner: ^2.1.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

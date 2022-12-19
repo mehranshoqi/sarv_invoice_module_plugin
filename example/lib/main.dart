@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sarv_invoice_module_plugin/sarv_invoice_module_plugin.dart';
+import 'package:sarv_invoice_module_plugin/features/invoice/presentation/pages/sell/new_sell_invoice_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -12,14 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: NewSellInvoicePage(),
     );
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
 
-  @override
-  Widget build(BuildContext context) => MainPage();
-}
