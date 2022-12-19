@@ -26,10 +26,12 @@ class _NewSellInvoiceModuleState extends State<NewSellInvoiceModule> {
   }
 
   @override
-  Widget build(BuildContext context) => Column(
-        children: [
-          Text(widget.isPOS.toString()),
-          Expanded(child: NewSellInvoicePage()),
-        ],
+  Widget build(BuildContext context) => Scaffold(
+        body: Column(
+          children: [
+            Text('Debug version - ' + widget.isPOS.toString()),
+            Expanded(child: NewSellInvoicePage()),
+          ],
+        ),
       );
 }
